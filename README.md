@@ -14,8 +14,11 @@ capital
 SQL Commands used for above db changes are listed here
 
 <sqlite3 .\countries.db>
+
 sqlite> ALTER TABLE country ADD COLUMN topLevelDomain TEXT;
+
 sqlite> ALTER TABLE country ADD COLUMN capital TEXT;
+
 sqlite> PRAGMA table_info(country);
 0|id|INTEGER|0||1
 1|name|TEXT|0||0
