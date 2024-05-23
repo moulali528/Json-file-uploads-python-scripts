@@ -1,10 +1,10 @@
 # dcr-python-exercise
 
 Exercises
-Exercise 1 - Add script called add_states.py to provide aggregated stats for each region.
+Exercise 1 - Add script called add_states.py in src folder to provide aggregated stats for each region.
 
 Exercise 2 - Integrate with API
-update this management command to obtain the JSON input data from this url: https://storage.googleapis.com/dcr-django-test/countries.json
+update this management command <pyhton python load_data.py> to obtain the JSON input data from this url: https://storage.googleapis.com/dcr-django-test/countries.json
 
 Exercise 3 - Store additional Data
 update the database tables and management command to also import:
